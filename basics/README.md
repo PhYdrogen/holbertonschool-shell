@@ -1,0 +1,1 @@
+Ce script permet de trouver sa localisation relative avec un script en bash
