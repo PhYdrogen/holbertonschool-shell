@@ -7,9 +7,9 @@ This is a readme for the first week at holberton school
 
 ## We used
  - [Shell]()
-  - [cp]()
-   - [ls]()
-    - [ln]()
-     - [mkdir]()
-      - [rmdir]()
+ - [cp]()
+ - [ls](
+ - [ln]()
+ - [mkdir]()
+ - [rmdir]()
        
