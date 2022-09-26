@@ -1,2 +1,2 @@
 #!/bin/bash
-du -a --threshold=0 | cut -f 9
+du -a --threshold=0 | cut -f 2
