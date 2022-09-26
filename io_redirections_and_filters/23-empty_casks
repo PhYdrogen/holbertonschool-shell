@@ -1,2 +1,2 @@
 #!/bin/bash
-du --threshold=0 | cut -f 2
+find . -type f -size 0
