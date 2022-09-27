@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1
+cut -f 1 | uniq -cd | sort -nr | head -n 20 | tr -s '[[:blank:]]' ';' | cut -d ';' -f 3 
