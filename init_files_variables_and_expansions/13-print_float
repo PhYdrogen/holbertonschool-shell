@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM $(printf '%f\n')
+echo $(printf '%2f\n' $NUM)
