@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(set)
+echo $(set) | tr '[[:space:]]' '\n'
