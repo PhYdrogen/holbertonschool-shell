@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -size 0 | rev | cut -d '/' -f 1 | rev 
+find . -type f,d -size 0 -printf %f
