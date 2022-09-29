@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER=$(echo $WATER | tr 'water' '01234' ) | STIR=$(echo $STIR | tr 'stir.' '01234') | echo $((5#$WATER+5#$STIR)) | tr '01234567' 'bestchol'
+WATER=$(echo $WATER | tr 'water' '01234' ) | STIR=$(echo $STIR | tr 'stir.' '01234') | echo $((5#WATER+5#STIR)) | tr '01234567' 'bestchol'
