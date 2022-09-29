@@ -1,2 +1,2 @@
 #!/bin/bash
-export WATER=$(echo $WATER | tr 'water' '01234' ) | export STIR=$(echo $STIR | tr 'stir.' '01234') | export RES=$(WATER+STIR) | echo $((8#$RES)) | tr '01234567' 'bestchol'
+export WATER=$(echo $WATER | tr 'water' '01234' ) | export STIR=$(echo $STIR | tr 'stir.' '01234') | export RES=$(WATER+STIR) | echo $((5#$RES)) | tr '01234567' 'bestchol'
